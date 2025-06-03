@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icons8-pinterest-32.png">
+    <title>Pinterest</title>
+</head>
+
+<body>
+    <section class="header">
+        <div class="topbar">
+            <div class="left">
+                <a href="#landing"> <img src="pinterest-wordmark.png" alt=""></a>
+                <div class="header-button"> <a href="index.html"> <img src="home.svg" alt=""> </a> </div>
+                <div class="header-button"> <a href="#messages"> <img src="message-circle.svg" alt=""> </a> </div>
+            </div>
+
+            <div class="searchbar">
+                <input type="text" placeholder="Search">
+            </div>
+
+            <div class="right">
+                <div class = "header-button"> <a href = "create.html"> <img src="plus-square.svg" alt=""> </a> </div>
+                <div class="header-button"> <a href="#notifications"> <img src="inbox.svg" alt=""> </a> </div>
+                <div class="header-button"> <a href="#settings"> <img src="settings.svg" alt=""> </a> </div>
+                <div class="profile">
+                    <a href="profile.html"> <img src="profile_active.png" alt=""></a>
+                </div>
+                <div style = "width: 50px; background-color: #fafafa;"> </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="profile-section">
+        <img src="profile_img.png" alt="">
+        <h1> Kate Saie</h1>
+        <p id="username"> @k8.saie</p>
+        <p id="following"> 142 following </p>
+        <div class = profilebuttonwrapper> 
+            <button class="profilebutton"> <a href="#share"> Share </a> </button>
+            <button class="profilebutton"> <a href="#editprofile"> Edit Profile </a> </button>
+        </div>
+
+
+        <div class="boardheader"> <!-- FILTER FOR CREATED AND SAVED PINS -->
+            <div class="pinfilter">
+                <input type="radio" id="a" name="boards" checked />
+                <label for="a"> Saved </label>
+                <input type="radio" id="b" name="boards" />
+                <label for="b"> Created </label>
+            </div>
+        </div>
+        <div class="saved"> <!-- CONTAINER FOR SAVED PINS -->
+            <div class="board">
+                <a href = "#boardviewed"> 
+                <img src="boards all/1s.jpg" alt="1">
+                <img src="boards all/2s.jpg" alt="1">
+                <img src="boards all/3s.jpg" alt="1">
+                <img src="boards all/4s.jpg" alt="1">
+                <div class="boardinfo">
+                    <div class="boardname"> All Pins</div>
+                    <div class="boardcount"> 50 pins</div>
+                </div>
+                </a>
+            </div>
+            <div class="board">
+                <a href = "#boardviewed"> 
+                <img src="boards mantras/1s.jpg" alt="1">
+                <img src="boards mantras/2s.jpg" alt="1">
+                <img src="boards mantras/3s.jpg" alt="1">
+                <img src="boards mantras/4s.jpg" alt="1">
+                <div class="boardinfo">
+                    <div class="boardname"> mantras</div>
+                    <div class="boardcount"> 8 pins</div>
+                </div>
+                </a>
+            </div>
+            <div class="board">
+                <a href = "#boardviewed">
+                <img src="boards safe space/1s.jpg" alt="1">
+                <img src="boards safe space/2s.jpg" alt="1">
+                <img src="boards safe space/3s.jpg" alt="1">
+                <img src="boards safe space/4s.jpg" alt="1">
+                <div class="boardinfo">
+                    <div class="boardname"> safe space</div>
+                    <div class="boardcount"> 12 pins</div>
+                </div>
+                </a>
+            </div>
+            <div class="board">
+                <a href = "#boardviewed">
+                <img src="boards fits/1s.jpg" alt="1">
+                <img src="boards fits/2s.jpg" alt="1">
+                <img src="boards fits/3s.jpg" alt="1">
+                <img src="boards fits/4s.jpg" alt="1">
+                <div class="boardinfo">
+                    <div class="boardname"> fits</div>
+                    <div class="boardcount"> 13 pins</div>
+                </div>
+                </a>
+            </div>
+            <div class="board">
+                <a href = "#boardviewed"> 
+                <img src="boards uni life/1s.jpg" alt="1">
+                <img src="boards uni life/2s.jpg" alt="1">
+                <img src="boards uni life/3s.jpg" alt="1">
+                <img src="boards uni life/4s.jpg" alt="1">
+                <div class="boardinfo">
+                    <div class="boardname"> uni life</div>
+                    <div class="boardcount"> 7 pins</div>
+                </div>
+                </a>
+            </div>
+
+            <div class="board">
+                <a href = "#boardviewed">
+                <img src="boards clean diet/1s.jpg" alt="1">
+                <img src="boards clean diet/2s.jpg" alt="1">
+                <img src="boards clean diet/3s.jpg" alt="1">
+                <img src="boards clean diet/4s.jpg" alt="1">
+                <div class="boardinfo">
+                    <div class="boardname"> clean diet</div>
+                    <div class="boardcount"> 10 pins</div>
+                </div>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="created"> <!-- CONTAINER FOR CREATED PINS (CURRENTLY NONE) -->
+            <div>   
+                <h2> Nothing to show... yet! Pins you create will live here. </h2>
+                <a href = "create.html"> <button class="createbutton"> Create Pin </button></a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="imagepreview.js"></script>
+    <link rel="icon" href="icons8-pinterest-32.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pinterest</title>
+</head>
+
+<body class="createbackground">
+    <section class="header">
+        <div class="topbar">
+            <div class="left">
+                <a href="#landing"> <img src="pinterest-wordmark.png" alt=""></a>
+                <div class="header-button"> <a href="index.html"> <img src="home.svg" alt=""> </a> </div>
+                <div class="header-button"> <a href="#messages"> <img src="message-circle.svg" alt=""> </a> </div>
+            </div>
+
+            <div class="searchbar">
+                <input type="text" placeholder="Search">
+            </div>
+
+            <div class="right">
+                <div class="header-button"> <a href="create.html"> <img src="plus-square-active.svg" alt=""> </a> </div>
+                <div class="header-button"> <a href="#notifications"> <img src="inbox.svg" alt=""> </a> </div>
+                <div class="header-button"> <a href="#settings"> <img src="settings.svg" alt=""> </a> </div>
+                <div class="profile">
+                    <a href="profile.html"> <img src="profile_img.png" alt=""></a>
+                </div>
+                <div style="width: 50px; background-color: #fafafa;"> </div>
+            </div>
+        </div>
+    </section>
+
+    <div style="height: 180px;"></div>
+
+    <div class="createbody">
+        <div class="createheader"> Create Pin </div>
+        <div class="createsection">
+            <div class="createupload">
+                <form action="#postcreated">
+                    <div class="imageplaceholder">
+                        <label class="imageinputlabel" for="imageinput" id="imageinputlabel"> Choose a file <br> drag
+                            and drop it here</label>
+                    </div>
+                    <input class="imageinput" type="file" id="imageinput" accept="image/*">
+
+                    <h5> We recommend using high quality .jpg files less than 20 MB or .mp4 files less than 200 MB.</h2>
+                <hr style="color: #00000050; margin-top: 15px;">
+                 <input class="publishbutton" type="submit" value="Publish Post"> 
+                <a href="#savedfromurl"> <input class="savefromurlbutton" type="submit" value="Save From URL"> </a>
+
+            </div>
+
+            <div class="createdetails">
+                <form action="#postcreated">
+                    <label class="inputlabel" for="titleinput"> Title</label>
+                    <input type="text" class="inputtext" placeholder="Add a title" id="titleinput" required>
+
+                    <label class="inputlabel" for="descinput"> Description</label>
+                    <input type="text" class="inputtext" placeholder="Add a detailed description" id="descinput"
+                        required>
+
+                    <label class="inputlabel" for="titleinput"> Link</label>
+                    <input type="text" class="inputtext" placeholder="Add a link" id="linkinput" required>
+
+                    <label class="inputlabel" for="boardselect"> Board</label>
+                    <select class="inputselect" id="boardselect" required>
+                        <option value="" disabled selected> Select a board </option>
+                        <option value="1"> uni life </option>
+                        <option value="2"> fits </option>
+                        <option value="3"> mantras </option>
+                        <option value="4"> safe space </option>
+                        <option value="5"> clean diet </option>
+                        <option value="6"> No Board </option>
+                    </select>
+                    <label class="inputlabel" for="titleinput"> Tagged topics</label>
+                    <input type="text" class="inputtag" placeholder="Search for a tag" id="linkinput" required>
+                    <h5> Don't worry, people wont see your tags</h6>
+
+                        <div class="checkboxwrapper">
+                            <input type="checkbox" id="more options" class="moreoptionscheckbox">
+                            <label for="more options" class="moreoptionslabel"> More Options </label>
+                        </div>
+
+                        <div class="moreoptionssection"> <!-- COLLAPSIBLE OPTIONS SECTION -->
+                            <div class="checkboxwrapper">
+                                <input type="checkbox" id="allowcomments" class="optionscheckbox">
+                                <label for="allowcomments" class="optionslabel"> Allow people to comment </label>
+                            </div>
+                            <div class="checkboxwrapper">
+                                <input type="checkbox" id="showsimilar" class="optionscheckbox">
+                                <label for="showsimilar" class="optionslabel"> Show similar products </label>
+                            </div>
+
+                            <h5 class="optionsdescription"> People can shop products similar to what's shown in this Pin
+                                using visual search
+                                Shopping recommendations aren't available for Idea ads and Pins
+                                with tagged products or paid partnership label</h5>
+
+                            <label class="inputlabel" for="descinput"> Alt Text</label>
+                            <input type="text" class="inputalt" placeholder="Describe your Pin's visual details"
+                                id="descinput" required>
+                            <h5 class="optionsdescription"> This helps people using screen readers understand what your
+                                Pin is about</h5>
+                        </div>
+                </form>
+            </form>
+            </div>
+        </div>
+    </div>
+
+
+</body>
