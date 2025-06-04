@@ -561,6 +561,17 @@ body:has(#b:checked) .created{
     margin-top: 12px;
 }
 
+.tagproductsbutton {
+    width: 25%;
+    height: 48px;
+    background-color: #E60022;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 12px;
+    margin-top: 12px;
+}
+
 .savefromurlbutton {
     width: 100%;
     height: 50px;
@@ -572,7 +583,7 @@ body:has(#b:checked) .created{
     margin-top: 8px;
 }
 
-.publishbutton:hover {
+.publishbutton:hover, .tagproductsbutton:hover {
     background-color: #BD001C;
 }
 .savefromurlbutton:hover {
