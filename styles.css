@@ -562,7 +562,7 @@ body:has(#b:checked) .created{
 }
 
 .tagproductsbutton {
-    width: 25%;
+    width: 35%;
     height: 48px;
     background-color: #E60022;
     color: white;
